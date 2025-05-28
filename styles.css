@@ -1,0 +1,115 @@
+body {
+    background-image: url(img/boulder_fontainebleau.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#adam {
+    width: 650px;
+    max-height: 60em;
+}
+
+#message {
+    color: black;
+    max-width: 9.5em;
+    margin-bottom: 2.5em;
+}
+
+#tekstWolkContainer {
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    width: 350px;
+    height: 15em;
+    background-image: url('img/tekstwolk_geel.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    padding: 1em;
+    box-sizing: border-box;
+    color: black;           
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#imgContainer {
+    position: relative;
+}
+
+button {
+    display: flex;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    border: solid black 0.1em;
+    height: 2em;
+    margin-top: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 1.2em;
+    font-family: "chinese-rocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    margin-left: 2.5em;
+    background-color: #ffec3e;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffec3e;
+    font-size: 7em;
+    font-family: "chinese-rocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    margin-top: 0.8em;
+}
+
+p {
+    color: #ffec3e;
+    font-family: "chinese-rocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#knoppen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+#fullscreen-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#fullscreen-video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
